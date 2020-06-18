@@ -1,0 +1,242 @@
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial;
+    background-color: #161516;
+    
+}
+#logo{
+    color: white;
+    padding: 5px;
+}
+span{
+    color: red;
+}
+
+@media screen and (max-width:991px) {
+    .logo{
+        top:20px;
+        text-align: center;
+    }
+}
+
+.navs{
+    height: 55px;
+    background: #333;
+    
+}
+.navbar{
+    
+}
+.spans {
+    margin-left: 800PX;
+    margin-top: 5px;
+    display: inline-block;
+}
+ul{
+   
+}
+ li{
+    float: left;
+    padding: 10px 14px;
+    list-style-type: none;
+    
+    
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+@media only screen and (max-width: 415px){
+    .spans ul li a{
+        font-size: 15px;
+        padding: 22px 15px;
+    }
+}
+
+ul li a:hover{
+    color: red;
+    
+}
+.banner{
+    width: 100%;
+    height: 890px;
+    background: url("image/1.jpg") no-repeat;
+    overflow: hidden;
+}
+.bann{
+    width: 500px;
+    height: 450px;
+    text-align: center;
+    padding: 20px;
+    margin-top: 192px;
+
+    
+}
+h1{
+    color: white;
+}
+#p{
+    color: white;
+    font-size: 10;
+}
+.btn{
+    width: 100px;
+    height: 45px;
+    border-radius: 5px;
+    border: 1px solid #007BFF;
+    background: unset;
+    color: #007BFF;
+    font-weight: bold;
+}
+.btn:hover{
+    background: #007BFF;
+    color: white;
+}
+.gym{
+    width: 325px;
+    height: 320px;
+    text-align: center;
+    color: gray;
+    background: white;
+    margin: 45px;
+    display: inline-block;
+   border-radius: 5px;
+   border: 1px solid #333;
+   animation-name: jubaer;
+   animation-duration: all 1s ;
+   transition: all 0.8s;
+   
+}
+
+.gym:hover{
+     background: #333;
+    color: red;
+    transform: scale(1.1);
+   cursor: pointer;
+   box-shadow: 5px 10px 20px 1px black;
+}
+
+@keyframes jubaer{
+    frome{transform: scale(1.5);}
+    to{transform: scale(0.1);}
+}
+.ab{
+    
+    text-align: center;
+    padding-top: 30px;
+    display: inline-block;
+    float: left;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.con{
+    text-align: center;
+}
+
+.contact{
+    width: 306px;
+    height: 35px;
+    background: unset;
+    border: 1px solid #667EEA;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    
+}
+.contact:focus{
+    background: #F7FAFC;
+    outline: none;
+}
+
+.contact:hover{
+    border-color: #667EEA;
+    
+}
+#area{
+    width: 650px;
+    height: 250px;
+    border: 1px solid #667EEA;
+    padding: 5px;
+    border-radius: 5px;
+    background:unset;
+    margin-top: 24px;
+    
+}
+#area:focus{
+    outline: none;
+    background: #F7FAFC;
+}
+#area:hover{
+    border-color: #667EEA;
+}
+#baton{
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #667EEA;
+    background: unset;
+    color: #667EEA;
+    font-weight: bold;
+    outline: none;
+    margin-top: 24px;
+    font-size: 13px;
+}
+#baton:hover{
+    background: #667EEA;
+    color: white;
+}
+hr{
+    border: solid gray 1px;
+    border-bottom: none;
+}
+.icon{
+    overflow: hidden;
+    
+}
+.icon ul{
+    margin: 0;
+    padding: 0;
+}
+.icon ul li{
+    list-style-type: none;
+    float: right;
+    margin-right: 10px;
+    padding: 10px;
+}
+.icon ul li a{
+    width: 36px;
+    height: 36px;
+    background: url(image/13.png);
+    background-repeat: no-repeat;
+    background-position: -350px -55px;
+    display: inline-block;
+ 
+    transition: 1s;
+}
+.icon ul li:nth-child(2) a{
+    background-position: -865px -55px;
+}
+
+.icon ul li:nth-child(3) a{
+    background-position: -993px -55px;
+}
+
+.icon ul li:hover:nth-child(1) a{
+    background-position: -350px -185px;
+}
+.icon ul li:hover:nth-child(2) a{
+    background-position: -865px -185px;
+}
+.icon ul li:hover:nth-child(3) a{
+    background-position: -993px -185px;
+}
+

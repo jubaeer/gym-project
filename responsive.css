@@ -1,0 +1,36 @@
+@media screen and (min-width:320px) {
+    .navs{
+        width: 320px;
+        height: 300px;
+    }
+
+}
+
+@media screen and (min-width:480px) {
+    .navs{
+        width: 480px;
+        height: 300px;
+    }
+
+}
+
+@media screen and (min-width:767px) {
+    .navs{
+        width: 767px;
+        height: 500px;
+    }
+}
+
+@media screen and (min-width:991px) {
+    .navs{
+        width: 991px;
+        height: 800px;
+    }
+}
+
+@media screen and (min-width:1349px) {
+    .navs{
+        width: 1349px;
+        height: 55px;
+    }
+}
